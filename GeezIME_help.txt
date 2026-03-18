@@ -1,0 +1,47 @@
+GeezIME Help & Character Mapping
+===============================
+
+GeezIME III - March 2026
+SAMI Blue Soft Solutions
+
+BASIC INSTRUCTIONS
+------------------
+- F12 Key: Toggle between Geez (ግ) and English (EN) mode.
+- Double-Click Status Window: Toggle between Geez and English mode.
+- Caps Lock: Displays an arrow (↑) in the status window. Affects character cases.
+- Num Lock: Displays a hash (#) in the status window.
+
+CHARACTER MAPPING (COMMON)
+--------------------------
+Type the Latin characters on the left to get the Geez character on the right.
+
+VOWELS:
+e -> አ    u -> ኡ    i -> ኢ    a -> ኣ    ie -> ኤ    A -> ዐ    o -> ኦ
+
+CONSONANT FAMILIES (SADIS):
+h -> ህ    l -> ል    H -> ሕ    m -> ም    r -> ር    s -> ስ    S -> ሽ
+q -> ቅ    b -> ብ    v -> ቭ    t -> ት    c -> ች    n -> ን    N -> ኝ
+k -> ክ    K -> ኽ    w -> ው    z -> ዝ    Z -> ዥ    y -> ይ    d -> ድ
+j -> ጅ    g -> ግ    T -> ጥ    C -> ጭ    P -> ጵ    x -> ፅ    f -> ፍ
+p -> ፕ
+
+VOWEL COMBINATIONS:
+(Example with 'h')
+he -> ሀ    hu -> ሁ    hi -> ሂ    ha -> ሃ    hie -> ሄ    ho -> ሆ
+
+SPECIAL COMBINATIONS:
+qwa -> ቋ    que -> ቈ    qui -> ቊ    quie -> ቌ
+kua -> ኳ    kue -> ኰ    kui -> ኲ    kuie -> ኴ
+gua -> ጓ    gue -> ጐ    gui -> ጒ    guie -> ጔ
+
+PUNCTUATION:
+. or :: -> ።
+,       -> ፣
+;       -> ፤
+:       -> ፡
+;-      -> ፥
+
+NUMERALS:
+1 -> ፩    2 -> ፪    3 -> ፫    4 -> ፬    5 -> ፭
+6 -> ፮    7 -> ፯    8 -> ፰    9 -> ፱
+10 -> ፲   20 -> ፳   100 -> ፻

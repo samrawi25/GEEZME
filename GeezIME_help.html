@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GeezIME III – Help</title>
+  <style>
+    body { font-family: Segoe UI, Arial, sans-serif; margin: 24px; line-height: 1.6; }
+    h1, h2, h3 { color: #003366; }
+    code { background: #f3f3f3; padding: 1px 4px; border-radius: 3px; }
+    table { border-collapse: collapse; margin: 12px 0; }
+    th, td { border: 1px solid #ccc; padding: 4px 8px; font-size: 14px; }
+    th { background: #f0f4ff; }
+    .geez { font-family: Nyala, Noto Sans Ethiopic, Arial Unicode MS, sans-serif; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h1>GeezIME III – Help</h1>
+
+  <h2>1. Basics</h2>
+  <ul>
+    <li><strong>Toggle GeezIME on/off</strong>: press <code>F12</code>.</li>
+    <li><strong>Status badge</strong>: the small floating window shows current state:
+      <ul>
+        <li><span class="geez">ግ</span> = GeezIME is ON.</li>
+        <li><code>EN</code> with red background = GeezIME is OFF (English / normal keyboard).</li>
+        <li><span class="geez">ግ ↑</span> = Caps Lock is ON, <span class="geez">ግ #</span> = Num Lock is ON.</li>
+      </ul>
+    </li>
+    <li><strong>Move badge</strong>: drag it with the left mouse button.</li>
+    <li><strong>Right‑click badge</strong>: opens the menu (Writer, Input Mode, Help, etc.).</li>
+  </ul>
+
+  <h2>2. Input modes</h2>
+  <p>Right‑click the badge → <strong>Input Mode</strong>:</p>
+  <ul>
+    <li><strong>Transliteration (default)</strong>: type Latin letters that are converted to Geez.</li>
+    <li><strong>Amharic Layout</strong>: single Latin keys are mapped directly to common Amharic syllables.</li>
+    <li><strong>Tigrinya Layout</strong>: single Latin keys mapped for Tigrinya usage.</li>
+  </ul>
+
+  <h3>2.1 Transliteration – vowel sequences</h3>
+  <p>Each consonant family uses the same pattern of suffixes:</p>
+  <table>
+    <tr><th>Suffix</th><th>Order</th><th>Example key</th><th>Example output</th></tr>
+    <tr><td><code>e</code></td><td>1st</td><td><code>se</code></td><td class="geez">ሰ</td></tr>
+    <tr><td><code>u</code></td><td>2nd</td><td><code>su</code></td><td class="geez">ሱ</td></tr>
+    <tr><td><code>i</code></td><td>3rd</td><td><code>si</code></td><td class="geez">ሲ</td></tr>
+    <tr><td><code>a</code></td><td>4th</td><td><code>sa</code></td><td class="geez">ሳ</td></tr>
+    <tr><td><code>ie</code></td><td>5th</td><td><code>sie</code></td><td class="geez">ሴ</td></tr>
+    <tr><td><em>none</em></td><td>6th</td><td><code>s</code></td><td class="geez">ስ</td></tr>
+    <tr><td><code>o</code></td><td>7th</td><td><code>so</code></td><td class="geez">ሶ</td></tr>
+  </table>
+
+  <h3>2.2 Transliteration – common consonant keys</h3>
+  <table>
+    <tr><th>Keys</th><th>Description</th><th>Examples</th></tr>
+    <tr>
+      <td><code>h</code>, <code>H</code></td>
+      <td>ሀ / ሐ families</td>
+      <td class="geez"><code>ha</code> → ሃ, <code>He</code> → ሐ, <code>Ha</code> → ሓ</td>
+    </tr>
+    <tr>
+      <td><code>l</code>, <code>m</code>, <code>r</code>, <code>s</code>, <code>S</code></td>
+      <td>ለ, መ, ረ, ሰ, ሸ families</td>
+      <td class="geez"><code>me</code> → መ, <code>ma</code> → ማ, <code>Se</code> → ሸ</td>
+    </tr>
+    <tr>
+      <td><code>q</code>, <code>Q</code>, <code>k</code>, <code>K</code></td>
+      <td>ቀ/ቐ, ከ/ኸ families</td>
+      <td class="geez"><code>qe</code> → ቀ, <code>qa</code> → ቃ, <code>ke</code> → ከ, <code>ka</code> → ካ</td>
+    </tr>
+    <tr>
+      <td><code>n</code>, <code>N</code>, <code>w</code>, <code>d</code>, <code>g</code>, <code>j</code></td>
+      <td>ነ, ኘ, ወ, ደ, ገ, ጀ families</td>
+      <td class="geez"><code>na</code> → ና, <code>wa</code> → ዋ, <code>ga</code> → ጋ, <code>ja</code> → ጃ</td>
+    </tr>
+    <tr>
+      <td><code>T</code>, <code>C</code>, <code>P</code>, <code>x</code>, <code>x2</code>, <code>f</code>, <code>p</code></td>
+      <td>ጠ, ጨ, ጰ, ፀ, ጸ, ፈ, ፐ families</td>
+      <td class="geez"><code>Ta</code> → ጣ, <code>Ca</code> → ጫ, <code>xa</code> → ፃ, <code>fa</code> → ፋ</td>
+    </tr>
+  </table>
+
+  <h3>2.3 Special “W” (labialized) forms</h3>
+  <p>Use extra letters like <code>que</code>, <code>kue</code>, etc.:</p>
+  <table>
+    <tr><th>Keys</th><th>Output</th></tr>
+    <tr><td><code>que</code></td><td class="geez">ቈ</td></tr>
+    <tr><td><code>kue</code></td><td class="geez">ኰ</td></tr>
+    <tr><td><code>gue</code></td><td class="geez">ጐ</td></tr>
+    <tr><td><code>hue</code></td><td class="geez">ኈ</td></tr>
+  </table>
+
+  <h3>2.4 Stand‑alone vowels and numerals</h3>
+  <table>
+    <tr><th>Keys</th><th>Output</th></tr>
+    <tr><td><code>a</code>, <code>e</code>, <code>i</code>, <code>u</code>, <code>o</code></td>
+        <td class="geez">ኣ, አ, ኢ, ኡ, ኦ</td></tr>
+    <tr><td><code>1 2 3 4 5 6 7 8 9 0</code></td>
+        <td class="geez">፩ ፪ ፫ ፬ ፭ ፮ ፯ ፰ ፱ ፲</td></tr>
+  </table>
+
+  <h3>2.5 Ethiopic punctuation</h3>
+  <table>
+    <tr><th>Keys</th><th>Output</th></tr>
+    <tr><td><code>.</code></td><td class="geez">።</td></tr>
+    <tr><td><code>,</code></td><td class="geez">፣</td></tr>
+    <tr><td><code>;</code></td><td class="geez">፤</td></tr>
+    <tr><td><code>:</code></td><td class="geez">፡</td></tr>
+    <tr><td><code>;-</code></td><td class="geez">፥</td></tr>
+  </table>
+
+  <h2>3. Amharic / Tigrinya layout modes</h2>
+  <p>In these modes, GeezIME ignores transliteration sequences and maps single keys directly:</p>
+  <ul>
+    <li><strong>Consonant keys</strong> (e.g. <code>k</code>, <code>g</code>, <code>s</code>, <code>m</code>, …) → the “a” form (4th order) of that family.</li>
+    <li><strong>Vowel keys</strong> (<code>a e i u o</code>) → stand‑alone vowels.</li>
+    <li><strong>Number row</strong> (<code>1–0</code>) → Ethiopic numerals <span class="geez">፩–፲</span>.</li>
+    <li><strong>Punctuation</strong> (<code>.,;:</code>) → Ethiopic punctuation.</li>
+  </ul>
+  <p>Use these modes when you want “one key = one Geez character” without multi‑letter combinations.</p>
+
+  <h2>4. On‑screen keyboard</h2>
+  <ul>
+    <li>Right‑click the badge → <strong>On‑screen Keyboard</strong>.</li>
+    <li>Click any Geez character: it is sent to the application that currently has the text cursor.</li>
+    <li>You can resize this window; buttons will adjust.</li>
+  </ul>
+
+  <h2>5. Geez Writer window</h2>
+  <ul>
+    <li>Right‑click badge → <strong>Open Writer</strong>.</li>
+    <li>Type Geez/Tigrinya/Amharic text with GeezIME active.</li>
+    <li>Use the Writer menu:
+      <ul>
+        <li><strong>File → Open…</strong>: open a UTF‑8 text file.</li>
+        <li><strong>File → Save As…</strong>: save your text as UTF‑8.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>6. Tips</h2>
+  <ul>
+    <li>If a shortcut (Ctrl+C, Ctrl+V, Alt+Tab…) doesn’t behave as expected, toggle GeezIME off with <code>F12</code>, use the shortcut, then toggle it on again.</li>
+    <li>Use <strong>Transliteration</strong> mode when you want full control of every order (e.g. <code>se/si/sa/sie/s/so</code>).</li>
+    <li>Use <strong>Amharic/Tigrinya</strong> mode when you prefer a simpler, direct Geez keyboard feel.</li>
+  </ul>
+</body>
+</html>
